@@ -7,9 +7,13 @@
 .navbar-brand{
 	font-size: calc((2 - 1) * 1.2vw + 1rem);
 }
-.myElement.is-stuck{
+.is-stuck{
 	padding: 1.8vw 3vw;
 }
 .navbar-light .navbar-nav .nav-link{
 	color: black;
+	padding: .1em 0;
+}
+.nav-item:not(:first-child){
+	margin-left: 1.3vw;
 }
