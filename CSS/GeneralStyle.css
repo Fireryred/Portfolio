@@ -1,0 +1,81 @@
+.navbar-brand, .title, h1, h2, h3, h4, h5, h6, strong {
+	font-family: Cormorant Garamond;
+	font-size: calc((2.8 - 1) * 1.2vw + 1rem);
+	margin: 0;
+}
+b, strong{
+	font-weight: bold;
+}
+a, p{
+	font-family: adelle-sans;
+	margin: 0;
+}
+a{
+	color: black;
+	text-decoration: none;
+	transition: opacity 140ms ease-in-out;
+}
+a:hover{
+	color: black;
+	opacity: .75;
+}
+.current-link{
+	background-repeat: repeat-x;
+	background-size: 1px 1px;
+	background-position: 0 calc(100% - .1em);
+	background-image: linear-gradient(to right, currentColor 100%, currentColor 0);
+}
+.content{
+	position: relative;
+	min-height: 100%;
+}
+.wrapper{
+	display: flex;
+	padding: 3.3vmax 3vw;
+	margin: 0 auto;
+	min-height: calc(45vh - 90.125px);
+}
+.wrapper-content{
+	box-sizing: content-box;
+	justify-content: center;
+	padding: 0;
+}
+.wrapper-item{
+	padding: 17px;
+}
+.wrapper-item:first-child{
+	padding-top: 0px;
+}
+.gallery{
+	padding: 3vw;
+	padding-top: 0;
+	max-width: 1200px;
+	margin: auto;
+}
+.carousel{
+	margin: 0 50px;
+}
+.carousel-inner{
+	text-align: center;
+}
+.carousel-inner img{
+	max-width:1019px;
+	max-height:532.643px;
+	margin: auto;
+}
+.carousel-control-prev{
+	margin-left: -150px;
+}
+.carousel-control-next{
+	margin-right: -150px;
+}
+.btn {
+	padding: 1.4em 2.338em;
+	border-radius: 1px;
+	background-color: #a8a6a1;
+	border-color: #a8a6a1;
+}
+.row.container-fluid{
+	padding: 0;
+	margin: 0;
+}
