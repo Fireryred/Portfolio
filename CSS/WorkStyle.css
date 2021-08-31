@@ -1,10 +1,32 @@
+h4{
+	font-size: calc((1.6 - 1) * 1.2vw + 1rem);
+}
 #wrk-w1{
 	padding: 0;
 	height: fit-content;
 }
-.wrapper-content{
+.first-of-content{
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.first-of-content .wrapper-content *{
+	text-align: center;
+	padding: 10px 25vw;
+}
+.first-of-content .wrapper-content h4{
+	padding-bottom: 0;
+}
+.first-of-content .wrapper-content h4 + h2{
+	padding-top: 0;
+}
+.wrapper-content.work{
 	padding: 3.3vw 3vw;
 	max-height: 300px;
+}
+.wrapper-content h3{
+	margin-top: 20px;
+	font-size: calc((1.6 - 1) * 1.2vw + 1rem);
 }
 a img{
     width: 100%;
@@ -12,8 +34,11 @@ a img{
     object-position: 50% 50%;
     object-fit: cover;
 }
-
-.wrapper-content h3{
-	margin-top: 20px;
-	font-size: calc((1.6 - 1) * 1.2vw + 1rem);
+.g-desc-w{
+	min-height: unset;
+	padding: 0;
+	padding-top: 3.3vmax;
+}
+.gallery-description{
+	text-align: center;
 }
