@@ -3,11 +3,13 @@
 	font-size: calc((2.8 - 1) * 1.2vw + 1rem);
 	margin: 0;
 }
+
 b, strong{
 	font-weight: bold;
 }
+
 a, p{
-	font-family: adelle-sans;
+    font-family: Helvetica;
 	margin: 0;
 }
 a{
@@ -26,18 +28,17 @@ a:hover{
 	background-image: linear-gradient(to right, currentColor 100%, currentColor 0);
 }
 .content{
-	position: relative;
+	position: absolute;
 	min-height: 100%;
 }
 .wrapper{
+	position: relative;
 	display: flex;
 	padding: 3.3vmax 3vw;
-	margin: 0 auto;
 	min-height: calc(45vh - 90.125px);
 }
 .wrapper-content{
 	box-sizing: content-box;
-	justify-content: center;
 	padding: 0;
 }
 .wrapper-item{
@@ -78,4 +79,7 @@ a:hover{
 .row.container-fluid{
 	padding: 0;
 	margin: 0;
+}
+.last-of-content{
+	padding-bottom: 30vh;
 }
