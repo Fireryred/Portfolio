@@ -5,11 +5,7 @@ h2 + p {
 	text-align: center;
 	margin: auto;
 	padding: calc(45vmax/10) 3vw;
-
 }
 #hm-w1{
 	padding: 0;
-}
-.last-of-content{
-	padding-bottom: 30vh;
 }
