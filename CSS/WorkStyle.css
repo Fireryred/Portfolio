@@ -4,6 +4,8 @@ h4{
 #wrk-w1{
 	padding: 0;
 	height: fit-content;
+	flex-direction: unset;
+	align-items: unset;
 }
 .first-of-content{
 	align-items: center;
@@ -20,6 +22,15 @@ h4{
 .first-of-content .wrapper-content h4 + h2{
 	padding-top: 0;
 }
+.wrapper{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 1600px;
+    padding: 3vw;
+    margin-left: auto;
+    margin-right: auto;
+}
 .wrapper-content.work{
 	padding: 3.3vw 3vw;
 	max-height: 300px;
@@ -27,6 +38,15 @@ h4{
 .wrapper-content h3{
 	margin-top: 20px;
 	font-size: calc((1.6 - 1) * 1.2vw + 1rem);
+}
+.project-img{
+	display: block;
+	max-width:1403px;
+	max-height:734.344px;
+	margin: auto;
+}
+.img-caption{
+	padding: 15px 0;
 }
 a img{
     width: 100%;

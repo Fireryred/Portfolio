@@ -30,6 +30,7 @@ a:hover{
 .content{
 	position: absolute;
 	min-height: 100%;
+	min-width: 100%;
 }
 .wrapper{
 	position: relative;
