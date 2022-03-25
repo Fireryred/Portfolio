@@ -9,118 +9,97 @@
             integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
             crossorigin="anonymous"
         />
-        <link href="../FontAwesome/css/fontawesome.css" rel="stylesheet" />
-        <link href="../FontAwesome/css/brands.css" rel="stylesheet" />
-        <link href="../FontAwesome/css/solid.css" rel="stylesheet" />
-        <link rel="stylesheet" type="text/css" href="../CSS/GeneralStyle.css" />
+        <link href="../../FontAwesome/css/fontawesome.css" rel="stylesheet" />
+        <link href="../../FontAwesome/css/brands.css" rel="stylesheet" />
+        <link href="../../FontAwesome/css/solid.css" rel="stylesheet" />
         <link
             rel="stylesheet"
             type="text/css"
-            href="../CSS/HomepageStyle.css"
+            href="../../CSS/GeneralStyle.css"
         />
-        <link rel="stylesheet" type="text/css" href="../CSS/NavbarStyle.css" />
-        <link rel="stylesheet" type="text/css" href="../CSS/FooterStyle.css" />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="../../CSS/NavbarStyle.css"
+        />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="../../CSS/FooterStyle.css"
+        />
+        <link rel="stylesheet" type="text/css" href="../../CSS/WorkStyle.css" />
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-light sticky-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"
+                <a class="navbar-brand" href="../index.html"
                     >Gershom Gruta (Portfolio)</a
                 >
             </div>
 
             <ul class="navbar-nav justify-content-right">
                 <li class="nav-item">
-                    <a class="nav-link" href="work.html">Work</a>
+                    <a class="nav-link current-link" href="../work.html"
+                        >Work</a
+                    >
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
+                    <a class="nav-link" href="../about.html">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" href="../contact.html">Contact</a>
                 </li>
             </ul>
         </nav>
-
         <div class="content">
-            <div class="wrapper" id="hm-w1">
-                <div class="wrapper-content" id="hm-w-c1">
-                    <h2>All About Me and My Works</h2>
+            <div class="wrapper first-of-content">
+                <div class="wrapper-content">
+                    <h2>Realifs</h2>
                     <p>
-                        I choose to be a software engineer because I want to
-                        find something that I wanted to create be it helping
-                        other people or for my personal interest. Even if that
-                        something is already created.
+                        A Donation Platform using React-Native and Firestore. It
+                        connects donor, delivery persons (fetchers), and
+                        donation effort organization (CSO administrators).
+                        Implemented features are fetcher tracking, wallet, chat,
+                        fetch request, manage donation effort, contact support,
+                        authentication.
                     </p>
                 </div>
             </div>
 
-            <div class="wrapper">
-                <div class="row container-fluid">
-                    <div class="wrapper-content col-7">
-                        <div class="wrapper-item">
-                            <strong>Realifs (2021 - 2022)</strong>
-                        </div>
-                    </div>
-                    <div class="wrapper-content col-5">
-                        <div class="wrapper-item">
-                            <p>
-                                A Donation Platform using React-Native and
-                                Firestore. It connects donor, delivery persons
-                                (fetchers), and donation effort organization
-                                (CSO administrators). Implemented features are
-                                fetcher tracking, wallet, chat, fetch request,
-                                manage donation effort, contact support,
-                                authentication.
-                            </p>
-                        </div>
-                        <div class="wrapper-item">
-                            <a class="btn" href="work/realifs.html"
-                                >View Work</a
-                            >
-                        </div>
-                    </div>
+            <div class="wrapper g-desc-w">
+                <div class="wrapper-content col gallery-description">
+                    <p>Human Resources' Perspective</p>
                 </div>
             </div>
 
             <div class="gallery">
                 <div
                     class="carousel slide carousel-fade carousel-dark"
-                    id="realifsCarousel"
+                    id="realifsHRCarousel"
                     data-bs-ride="carousel"
                 >
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="../Images/Realifs/Donor/Browse.jpg" />
-                        </div>
-                        <div class="carousel-item">
                             <img
-                                src="../Images/Realifs/Donor/ViewCSOPage.jpg"
+                                src="../../Images/Realifs/HR/PendingAccounts.jpg"
                             />
                         </div>
                         <div class="carousel-item">
-                            <img
-                                src="../Images/Realifs/Donor/RequestFetch.jpg"
-                            />
+                            <img src="../../Images/Realifs/HR/Requests.jpg" />
                         </div>
                         <div class="carousel-item">
                             <img
-                                src="../Images/Realifs/Donor/RequestFetchLoc.jpg"
+                                src="../../Images/Realifs/HR/UserSupport.jpg"
                             />
                         </div>
                         <div class="carousel-item">
-                            <img src="../Images/Realifs/Donor/Payment.jpg" />
-                        </div>
-                        <div class="carousel-item">
-                            <img
-                                src="../Images/Realifs/Donor/PaymentGCash.jpg"
-                            />
+                            <img src="../../Images/Realifs/HR/Login.jpg" />
                         </div>
                     </div>
                     <button
                         class="carousel-control-prev"
                         type="button"
-                        data-bs-target="#realifsCarousel"
+                        data-bs-target="#realifsHRCarousel"
                         data-bs-slide="prev"
                     >
                         <span
@@ -132,7 +111,7 @@
                     <button
                         class="carousel-control-next"
                         type="button"
-                        data-bs-target="#realifsCarousel"
+                        data-bs-target="#realifsHRCarousel"
                         data-bs-slide="next"
                     >
                         <span
@@ -144,222 +123,50 @@
                 </div>
             </div>
 
-            <div class="wrapper">
-                <div class="row container-fluid">
-                    <div class="wrapper-content col-7">
-                        <div class="wrapper-item">
-                            <strong>Solobit (2020 - 2021)</strong>
-                        </div>
-                    </div>
-                    <div class="wrapper-content col-5">
-                        <div class="wrapper-item">
-                            <p>
-                                An E-commerce website with the aim of me getting
-                                used to PHP and switched to Java. Implemented
-                                features are authentication, add/remove to cart,
-                                search items, checkout
-                            </p>
-                        </div>
-                        <div class="wrapper-item">
-                            <a class="btn" href="work/solobit.html"
-                                >View Work</a
-                            >
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="gallery">
-                <div
-                    class="carousel slide carousel-fade carousel-dark"
-                    id="solobitCarousel"
-                    data-bs-ride="carousel"
-                >
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="../Images/Solobit/Homepage.png" />
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../Images/Solobit/ViewCart.png" />
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../Images/Solobit/Checkout.png" />
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../Images/Solobit/Confirmation.png" />
-                        </div>
-                    </div>
-                    <button
-                        class="carousel-control-prev"
-                        type="button"
-                        data-bs-target="#solobitCarousel"
-                        data-bs-slide="prev"
-                    >
-                        <span
-                            class="carousel-control-prev-icon"
-                            aria-hidden="true"
-                        ></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button
-                        class="carousel-control-next"
-                        type="button"
-                        data-bs-target="#solobitCarousel"
-                        data-bs-slide="next"
-                    >
-                        <span
-                            class="carousel-control-next-icon"
-                            aria-hidden="true"
-                        ></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </div>
-
-            <div class="wrapper">
-                <div class="row container-fluid">
-                    <div class="wrapper-content col-7">
-                        <div class="wrapper-item">
-                            <strong>Myxa (2019)</strong>
-                        </div>
-                    </div>
-                    <div class="wrapper-content col-5">
-                        <div class="wrapper-item">
-                            <p>
-                                A Meal Kit delivery service that is accessible
-                                through an Android Mobile Application.
-                                Implemented features are: UI, authentication,
-                                location tracking, catalog, cart, and checkout.
-                            </p>
-                        </div>
-                        <div class="wrapper-item">
-                            <a class="btn" href="work/myxa.html">View Work</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="gallery">
-                <div
-                    class="carousel slide carousel-fade carousel-dark"
-                    id="myxaCarousel"
-                    data-bs-ride="carousel"
-                >
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="../Images/Myxa/Customer/Homepage.png" />
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../Images/Myxa/Customer/Recipe.png" />
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../Images/Myxa/Customer/Checkout.png" />
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../Images/Myxa/Customer/PlaceOrder.png" />
-                        </div>
-                        <div class="carousel-item">
-                            <img
-                                src="../Images/Myxa/Customer/DeliveryStatus.png"
-                            />
-                        </div>
-                    </div>
-                    <button
-                        class="carousel-control-prev"
-                        type="button"
-                        data-bs-target="#myxaCarousel"
-                        data-bs-slide="prev"
-                    >
-                        <span
-                            class="carousel-control-prev-icon"
-                            aria-hidden="true"
-                        ></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button
-                        class="carousel-control-next"
-                        type="button"
-                        data-bs-target="#myxaCarousel"
-                        data-bs-slide="next"
-                    >
-                        <span
-                            class="carousel-control-next-icon"
-                            aria-hidden="true"
-                        ></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </div>
-
-            <div class="wrapper">
-                <div class="row container-fluid">
-                    <div class="wrapper-content col-7">
-                        <div class="wrapper-item">
-                            <strong>BantayBayan (2020 - 2021)</strong>
-                        </div>
-                    </div>
-                    <div class="wrapper-content col-5">
-                        <div class="wrapper-item">
-                            <p>
-                                A Management Information System using Java JSP
-                                and MySQL. It connects citizens and village
-                                officials digitally, aiding in submitting and
-                                receiving issues within the community.
-                                Implemented features are authentication, news
-                                feed, forum, and email & phone alerts.
-                            </p>
-                        </div>
-                        <div class="wrapper-item">
-                            <a class="btn" href="work/bantaybayan.html"
-                                >View Work</a
-                            >
-                        </div>
-                    </div>
+            <div class="wrapper g-desc-w">
+                <div class="wrapper-content col gallery-description">
+                    <p>CSO's Perspective</p>
                 </div>
             </div>
 
             <div class="gallery last-of-content">
                 <div
                     class="carousel slide carousel-fade carousel-dark"
-                    id="bantaybayanCarousel"
+                    id="realifsCSOCarousel"
                     data-bs-ride="carousel"
                 >
                     <div class="carousel-inner">
                         <div class="carousel-item active">
+                            <img src="../../Images/Realifs/CSO/Dashboard.jpg" />
+                        </div>
+                        <div class="carousel-item">
                             <img
-                                src="../Images/BantayBayan/BantayBayan Prototype - Microsoft Edge.jpg"
+                                src="../../Images/Realifs/CSO/CreateDonationEffort.jpg"
                             />
                         </div>
                         <div class="carousel-item">
                             <img
-                                src="../Images/BantayBayan/All Concerns - Microsoft Edge.jpg"
+                                src="../../Images/Realifs/CSO/IncomingDonation.jpg"
                             />
                         </div>
                         <div class="carousel-item">
                             <img
-                                src="../Images/BantayBayan/View Concern - Microsoft Edge.jpg"
+                                src="../../Images/Realifs/CSO/TrackFetcher.jpg"
                             />
                         </div>
                         <div class="carousel-item">
                             <img
-                                src="../Images/BantayBayan/Concern Form - Microsoft Edge.jpg"
+                                src="../../Images/Realifs/CSO/ViewCSOPage.jpg"
                             />
                         </div>
                         <div class="carousel-item">
-                            <img
-                                src="../Images/BantayBayan/All Provinces - Microsoft Edge.jpg"
-                            />
-                        </div>
-                        <div class="carousel-item">
-                            <img
-                                src="../Images/BantayBayan/View Province - Microsoft Edge.jpg"
-                            />
+                            <img src="../../Images/Realifs/CSO/Register.jpg" />
                         </div>
                     </div>
                     <button
                         class="carousel-control-prev"
                         type="button"
-                        data-bs-target="#bantaybayanCarousel"
+                        data-bs-target="#realifsCSOCarousel"
                         data-bs-slide="prev"
                     >
                         <span
@@ -371,7 +178,160 @@
                     <button
                         class="carousel-control-next"
                         type="button"
-                        data-bs-target="#bantaybayanCarousel"
+                        data-bs-target="#realifsCSOCarousel"
+                        data-bs-slide="next"
+                    >
+                        <span
+                            class="carousel-control-next-icon"
+                            aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="wrapper g-desc-w">
+                <div class="wrapper-content col gallery-description">
+                    <p>Donor's Perspective</p>
+                </div>
+            </div>
+
+            <div class="gallery last-of-content">
+                <div
+                    class="carousel slide carousel-fade carousel-dark"
+                    id="realifsDonorCarousel"
+                    data-bs-ride="carousel"
+                >
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../../Images/Realifs/Donor/Browse.jpg" />
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="../../Images/Realifs/Donor/ViewDonationEffort.jpg"
+                            />
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="../../Images/Realifs/Donor/ViewCSOPage.jpg"
+                            />
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="../../Images/Realifs/Donor/RequestFetch.jpg"
+                            />
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="../../Images/Realifs/Donor/RequestFetchLoc.jpg"
+                            />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../../Images/Realifs/Donor/Payment.jpg" />
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="../../Images/Realifs/Donor/PaymentGCash.jpg"
+                            />
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="../../Images/Realifs/Donor/MyDonation.jpg"
+                            />
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="../../Images/Realifs/Donor/TrackFetcher.jpg"
+                            />
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="../../Images/Realifs/Donor/Register.jpg"
+                            />
+                        </div>
+                    </div>
+                    <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#realifsDonorCarousel"
+                        data-bs-slide="prev"
+                    >
+                        <span
+                            class="carousel-control-prev-icon"
+                            aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#realifsDonorCarousel"
+                        data-bs-slide="next"
+                    >
+                        <span
+                            class="carousel-control-next-icon"
+                            aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="wrapper g-desc-w">
+                <div class="wrapper-content col gallery-description">
+                    <p>Fetcher's Perspective</p>
+                </div>
+            </div>
+
+            <div class="gallery last-of-content">
+                <div
+                    class="carousel slide carousel-fade carousel-dark"
+                    id="realifsFetcherCarousel"
+                    data-bs-ride="carousel"
+                >
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img
+                                src="../../Images/Realifs/Fetcher/FetchRequestPool.jpg"
+                            />
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="../../Images/Realifs/Fetcher/FetchFromDonor.jpg"
+                            />
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="../../Images/Realifs/Fetcher/DelivertoCSO.jpg"
+                            />
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="../../Images/Realifs/Fetcher/Wallet.jpg"
+                            />
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="../../Images/Realifs/Fetcher/Register.jpg"
+                            />
+                        </div>
+                    </div>
+                    <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#realifsFetcherCarousel"
+                        data-bs-slide="prev"
+                    >
+                        <span
+                            class="carousel-control-prev-icon"
+                            aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#realifsFetcherCarousel"
                         data-bs-slide="next"
                     >
                         <span
@@ -428,6 +388,9 @@
             integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
             crossorigin="anonymous"
         ></script>
-        <script src="../JavaScript/Navbar.js" type="text/javascript"></script>
+        <script
+            src="../../JavaScript/Navbar.js"
+            type="text/javascript"
+        ></script>
     </body>
 </html>
